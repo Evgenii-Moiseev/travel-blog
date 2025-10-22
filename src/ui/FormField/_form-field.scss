@@ -1,0 +1,80 @@
+@use '../../styles/global/variables' as *;
+
+.form-field {
+  position: relative;
+  width: 100%;
+  padding: 0 0 22px 0;
+
+  &__label {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__label-wrap {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin: 0 0 8px 0;
+  }
+
+  &__label-text {
+    font-size: 14px;
+    line-height: 22px;
+    color: $color-black-85;
+  }
+
+  &__input {
+    padding: 5px 12px;
+    width: 100%;
+    border-radius: 2px;
+    font-size: 14px;
+    line-height: 22px;
+    color: $color-cod-gray;
+    border: 1px solid $color-alto;
+    outline: none;
+
+    &::placeholder {
+      color: $color-black-25;
+    }
+
+    &--error {
+      border-color: $color-sunset-orange;
+    }
+  }
+
+  &__error-text {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-family: $ff-error;
+    font-size: 14px;
+    line-height: 22px;
+    color: $color-sunset-orange;
+  }
+
+  &__textarea {
+    width: 100%;
+    min-height: 130px;
+    padding: 5px 20px 12px 12px;
+    resize: vertical;
+    border-radius: 2px;
+    font-size: 16px;
+    line-height: 24px;
+    color: $color-mine-shaft;
+    border: 1px solid $color-alto;
+    outline: none;
+
+    &--error {
+      border-color: $color-sunset-orange;
+    }
+  }
+
+  &__textarea-count {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 14px;
+    line-height: 22px;
+    color: $color-black-25;
+  }
+}

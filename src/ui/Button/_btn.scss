@@ -1,0 +1,52 @@
+@use '../../styles/global/variables' as *;
+
+.btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 2px solid $color-web-orange;
+  padding: 12px 28px;
+  outline: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  white-space: nowrap;
+  cursor: pointer;
+
+  &--primary {
+    background-color: $color-web-orange;
+    color: $color-white;
+  }
+
+  &--secondary {
+    color: $color-web-orange;
+  }
+
+  &--borderless {
+    padding: 10px 0 10px 2px;
+    border: none;
+  }
+
+  &--text {
+    justify-content: flex-start;
+    padding: 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 183%;
+    color: $color-mine-shaft;
+  }
+
+  &__icon {
+    width: 24px;
+    height: 24px;
+
+    &--S {
+      width: 14px;
+      height: 11px;
+    }
+  }
+}

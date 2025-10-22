@@ -1,0 +1,31 @@
+/* Global */
+/* ------------------- */
+@use 'global/_normalize';
+@forward 'global/_variables';
+@use 'global/_fonts';
+@use 'global/_reboot';
+@use 'global/_container';
+@use 'global/_visually-hidden';
+
+/* Blocks */
+/* ------------------- */
+@use '../components//Header/header';
+@use '../pages/PostsListPage/posts';
+@use '../pages/PostDetailPage/post';
+@use '../components/PostCard/post-card';
+@use '../ui/Button/btn';
+@use '../pages/LoginPage/login';
+@use './blocks/login-form';
+@use '../pages/RegisterPage/register';
+@use './blocks/register-form';
+@use '../ui/FormField/form-field';
+@use '../pages/UserProfilePage/profile';
+@use './blocks/edit-form';
+@use '../pages/CreatePostPage/create-post';
+@use './blocks/create-post-form';
+@use '../ui/FormFieldFile/form-field-file';
+@use '../pages/CreateCommentPage/create-comment';
+@use './blocks/create-comment-form';
+@use './blocks/overlay';
+@use '../components/Loader/loader';
+@use '../components/DataError/_data-error';

@@ -1,0 +1,72 @@
+@use '../../styles/global/variables' as *;
+
+.post {
+  padding: 30px 0 60px 0;
+
+  &__content {
+    border-radius: 10px;
+    background-color: $color-white;
+    overflow: hidden;
+  }
+
+  &__img {
+    width: 100%;
+    max-height: 450px;
+  }
+
+  &__wrap {
+    padding: 30px 102px 109px 102px;
+  }
+
+  &__title {
+    margin: 0 0 15px 0;
+  }
+
+  &__descr {
+    margin: 0 0 50px 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: $color-black;
+  }
+
+  &__comment-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 0 30px 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  &__comment{
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__coment-author {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: $color-black;
+  }
+
+  &__comment-date {
+    margin: 0 0 5px 0;
+    font-size: 14px;
+    line-height: 24px;
+    color: $color-gray;
+  }
+
+  &__comment-text {
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: $color-black;
+  }
+
+  &__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

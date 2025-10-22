@@ -1,0 +1,59 @@
+@use '../../styles/global/variables' as *;
+
+.post-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px 0px #0000001a;
+  min-height: 552px;
+  overflow: hidden;
+
+  &__img {
+    max-height: 288px;
+    height: 100%;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 26px 25px 25px 25px;
+    background-color: $color-white;
+  }
+
+  &__title {
+    margin: 0 0 10px 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: $color-cod-gray;
+  }
+
+  &__descr {
+    margin: 0 0 10px 0;
+    font-size: 15px;
+    line-height: 183%;
+    color: $color-gray;
+  }
+
+  &__wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin: auto 0 0 0;
+  }
+
+  &__place {
+    font-size: 14px;
+    line-height: 183%;
+    color: $color-cod-gray;
+  }
+
+  &__link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 183%;
+    text-decoration: underline;
+    color: $color-web-orange;
+  }
+}

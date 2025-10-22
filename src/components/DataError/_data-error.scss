@@ -1,0 +1,13 @@
+@use '../../styles/global/variables' as *;
+
+.data-error {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: $color-black;
+}

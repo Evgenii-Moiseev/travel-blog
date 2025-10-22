@@ -1,0 +1,52 @@
+@use '../../styles/global/variables' as *;
+
+.form-field-file {
+  position: relative;
+  display: flex;
+  padding: 0 0 22px 0;
+
+  &__label {
+    display: inline-block;
+    padding: 4px 15px;
+    border-radius: 2px;
+    border: 1px solid $color-alto;
+    cursor: pointer;
+
+    &--bordless {
+      border: none;
+      padding: 0;
+    }
+  }
+
+  &__label-wrap {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  &__label-text {
+    font-size: 14px;
+    line-height: 22px;
+    color: $color-black-85;
+
+    &--orange {
+      font-size: 16px;
+      line-height: 24px;
+      color: $color-web-orange;
+      text-decoration: underline;
+    }
+  }
+
+  &__input {
+    display: none;
+  }
+
+  &__name {
+    position: absolute;
+    left: 0;
+    bottom: 22px;
+    transform: translateY(100%);
+    font-size: 14px;
+    line-height: 22px;
+  }
+}

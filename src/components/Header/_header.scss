@@ -1,0 +1,121 @@
+@use '../../styles/global/variables' as *;
+
+.header {
+  position: relative;
+  background-color: $color-cod-gray;
+  min-height: 251px;
+  z-index: 10;
+
+  &--main {
+    min-height: 422px;
+
+    .header__slogan {
+      padding: 108px 0 0 0;
+    }
+  }
+
+  &__wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      left: 0;
+      bottom: 0;
+      background-color: $color-white-60;
+      z-index: 10;
+    }
+  }
+
+  &__logo {
+    flex-shrink: 0;
+  }
+
+  &__img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+
+  &__link {
+    display: flex;
+    font-size: 16px;
+    line-height: 183%;
+    color: $color-white;
+    z-index: 10;
+  }
+
+  &__slogan-wrap {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__slogan {
+    position: relative;
+    padding: 39px 0 0 0;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 150%;
+    text-align: center;
+    color: $color-white;
+    text-transform: uppercase;
+    z-index: 10;
+  }
+
+  &__user {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    z-index: 100;
+  }
+
+  &__avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  &__user-name {
+    font-size: 16px;
+    line-height: 183%;
+    color: $color-white;
+  }
+
+  &__menu {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    transform: translateY(100%);
+    padding: 8px;
+    border-radius: 2px;
+    background-color: $color-white;
+  }
+
+  &__menu-btn {
+    &--open {
+      .header__menu-icon {
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  &__menu-item {
+    font-size: 12px;
+    line-height: 183%;
+    color: $color-mine-shaft;
+  }
+}

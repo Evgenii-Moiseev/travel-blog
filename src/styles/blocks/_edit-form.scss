@@ -1,0 +1,32 @@
+@use '../../styles/global/variables' as *;
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+
+  &__wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  &__subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  &__passwords {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    padding: 0;
+    border: none;
+  }
+
+    &__btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
