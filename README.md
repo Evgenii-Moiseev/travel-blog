@@ -22,13 +22,17 @@ TravelBlog — веб-приложение для общения и обмена
 - npm run build // запускает продакшн-сборку приложения в папку dist
 
 ## Скриншоты
-Главная страница
-<img width="1150" height="1107" alt="Главная страница" src="https://github.com/user-attachments/assets/12ca8836-a82e-42c5-9767-f8ff48a05938" />
-Страница поста
-<img width="1145" height="1106" alt="travel-blog-2" src="https://github.com/user-attachments/assets/b90c47cc-b0a1-496c-b3a5-0f548c7a119e" />
-Редактирование информации пользователя
-<img width="1152" height="1117" alt="travel-blog-3" src="https://github.com/user-attachments/assets/327c9304-0349-4d9e-be64-c9dc8d48c6fe" />
-Форма создания нового поста
-<img width="1151" height="1102" alt="travel-blog-4" src="https://github.com/user-attachments/assets/7f68d9a6-16fb-4c40-8714-40a7b3b5b7e5" />
-Форма входа в аккаунт
-<img width="1147" height="1101" alt="travel-blog-5" src="https://github.com/user-attachments/assets/d18f8897-1084-4f8e-8d0d-f849daf97f7c" />
+- Главная страница
+<img width="1150" height="1107" alt="TravelBlog: Главная страница" src="https://github.com/user-attachments/assets/12ca8836-a82e-42c5-9767-f8ff48a05938" />
+
+- Страница поста
+<img width="1150" height="1106" alt="TravelBlog: Страница поста" src="https://github.com/user-attachments/assets/b90c47cc-b0a1-496c-b3a5-0f548c7a119e" />
+
+- Редактирование информации пользователя
+<img width="1150" height="1117" alt="TravelBlog: Редактирование информации пользователя" src="https://github.com/user-attachments/assets/327c9304-0349-4d9e-be64-c9dc8d48c6fe" />
+
+- Форма создания нового поста
+<img width="1150" height="1102" alt="TravelBlog: Форма создания нового поста" src="https://github.com/user-attachments/assets/7f68d9a6-16fb-4c40-8714-40a7b3b5b7e5" />
+
+- Форма входа в аккаунт
+<img width="1150" height="1101" alt="TravelBlog: Форма входа в аккаунт" src="https://github.com/user-attachments/assets/d18f8897-1084-4f8e-8d0d-f849daf97f7c" />
